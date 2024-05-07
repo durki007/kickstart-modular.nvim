@@ -17,6 +17,7 @@ return {
   opts = {
     close_if_last_window = true,
     filesystem = {
+      hijack_netrw_beahviour = 'open_current',
       window = {
         position = 'right',
         mappings = {
